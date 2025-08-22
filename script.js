@@ -1,4 +1,5 @@
 //Cadastro de usuario
+let inicio = prompt("Seja Bem vindo ao site, a seguir crie seu cadrasto e realize o login.")
 const nome = prompt("Digite seu nome")
 let idade = parseInt(prompt("digite sua idade"))
 
@@ -21,3 +22,4 @@ alert(`Login realizado com sucesso! Bem-vindo, ${nome}.`)
     alert(`Nome ou senha incorretos. Tente novamente.`)
 }
 }
+
